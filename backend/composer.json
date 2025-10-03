@@ -1,0 +1,19 @@
+{
+    "name": "chinook/api",
+    "autoload": {
+        "psr-4": {
+            "Chinook\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "AroMino",
+            "email": "arominorakotoarijaona@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "propel/propel": "^2.0@beta",
+        "nikic/fast-route": "^2.0@beta"
+    }
+}
